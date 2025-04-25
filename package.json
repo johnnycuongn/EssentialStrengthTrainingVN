@@ -1,0 +1,26 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "A simple translation script using Google Translate API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "^1.4.1",
+    "@vitalets/google-translate-api": "^9.2.1",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "cli-progress": "^3.12.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.21",
+    "localtunnel": "^2.0.2",
+    "node-html-parser": "^7.0.1",
+    "path": "^0.12.7",
+    "pdfkit": "^0.16.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
